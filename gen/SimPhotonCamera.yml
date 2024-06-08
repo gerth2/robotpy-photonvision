@@ -10,4 +10,4 @@ classes:
       SubmitProcessedFrame:
         overloads:
           units::millisecond_t, std::vector<PhotonTrackedTarget>:
-          units::millisecond_t, std::function<bool (const PhotonTrackedTarget&, const PhotonTrackedTarget&)>, std::vector<PhotonTrackedTarget>:
+          units::millisecond_t, std::function<bool (const PhotonTrackedTarget& target1, const PhotonTrackedTarget& target2)>, std::vector<PhotonTrackedTarget>:

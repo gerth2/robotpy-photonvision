@@ -107,6 +107,7 @@ PNPResult            = "photon-targeting/photon/targeting/PNPResult.h"
 PhotonTrackedTarget  = "photon-targeting/photon/targeting/PhotonTrackedTarget.h"
 PhotonPipelineResult = "photon-targeting/photon/targeting/PhotonPipelineResult.h"
 MultiTargetPNPResult = "photon-targeting/photon/targeting/MultiTargetPNPResult.h"
+Packet               = "photon-targeting/photon/dataflow/structures/Packet.h"
 
 
 [[tool.robotpy-build.wrappers."photonvision".type_casters]]

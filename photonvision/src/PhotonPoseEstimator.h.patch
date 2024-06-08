@@ -1,5 +1,5 @@
---- photon/PhotonPoseEstimator.h	2024-05-23 13:05:01.926623400 -0500
-+++ photon/PhotonPoseEstimator.h	2024-05-23 13:05:59.122700500 -0500
+--- photon-lib/photon/PhotonPoseEstimator.h	2024-05-23 13:05:01.926623400 -0500
++++ photon-lib/photon/PhotonPoseEstimator.h	2024-05-23 13:05:59.122700500 -0500
 @@ -92,24 +92,6 @@
     * @param aprilTags A AprilTagFieldLayout linking AprilTag IDs to Pose3ds with
     * respect to the FIRST field.

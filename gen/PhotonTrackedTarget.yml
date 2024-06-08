@@ -13,6 +13,8 @@ classes:
       poseAmbiguity:
       minAreaRectCorners:
       detectedCorners:
+      objDetectId:
+      objDetectConf:
     methods:
       PhotonTrackedTarget:
         overloads:

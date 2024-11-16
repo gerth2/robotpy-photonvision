@@ -28,3 +28,6 @@ dist
 *.dylib
 *.dll
 venv
+.venv
+photontargeting
+photonvision_targeting

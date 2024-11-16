@@ -26,8 +26,8 @@ requires = [
 base_package = "photontargeting"
 
 
-[tool.robotpy-build.wrappers."photonvision.targeting"]
-name = "photonvision_targeting"
+[tool.robotpy-build.wrappers."photontargeting"]
+name = "photontargeting"
 
 depends = [
     "wpinet",
@@ -39,7 +39,7 @@ depends = [
 generation_data = "gen/photontargeting"
 
 
-[tool.robotpy-build.wrappers."photonvision.targeting".maven_lib_download]
+[tool.robotpy-build.wrappers."photontargeting".maven_lib_download]
 artifact_id = "photontargeting-cpp"
 group_id = "org.photonvision"
 repo_url = "https://maven.photonvision.org/snapshots"
@@ -47,5 +47,5 @@ version = "dev-v2025.0.0-beta-2-6-g5f3dc152"
 libs = ["photontargeting"]
 
 
-[tool.robotpy-build.wrappers."photonvision.targeting".autogen_headers]
+[tool.robotpy-build.wrappers."photontargeting".autogen_headers]
 TimeSyncClient = "net/TimeSyncClient.h"

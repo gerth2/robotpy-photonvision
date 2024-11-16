@@ -1,0 +1,10 @@
+---
+
+classes:
+  TimeSyncClient:
+    methods:
+      TimeSyncClient:
+      Start:
+      Stop:
+      GetOffset:
+      GetMetadata:

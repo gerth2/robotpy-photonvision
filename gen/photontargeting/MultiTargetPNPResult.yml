@@ -1,9 +1,0 @@
----
-
-classes:
-  MultiTargetPNPResult:
-    attributes:
-      result:
-      fiducialIdsUsed:
-    methods:
-      operator==:

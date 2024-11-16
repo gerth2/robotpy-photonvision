@@ -28,3 +28,4 @@ dist
 *.dylib
 *.dll
 venv
+.venv
